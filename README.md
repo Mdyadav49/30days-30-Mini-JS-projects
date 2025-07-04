@@ -28,7 +28,7 @@ Together, they serve as an excellent playground to **learn, practice, and master
 
 ## 🌟 Projects
 
-| 🚀 Project | 📂 Folder | 🌐 Live Demo |
+| 🚀 Project | 📂 Folder | 
 |---|---|---|
-| 🎴 **to-do list** | [Code]() 
+| 🎴 **to-do list** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/To-Do%20List) 
 
