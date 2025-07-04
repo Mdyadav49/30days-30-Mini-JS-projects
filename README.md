@@ -26,3 +26,9 @@ Together, they serve as an excellent playground to **learn, practice, and master
 
 ---
 
+## 🌟 Projects
+
+| 🚀 Project | 📂 Folder | 🌐 Live Demo |
+|---|---|---|
+| 🎴 **to-do list** | [Code]() 
+
