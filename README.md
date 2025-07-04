@@ -4,7 +4,7 @@
 <tr>
 <td>
 
-## 💡 **"Coding is all about making and breaking things."**
+## 💡 "🧰 "The best solutions are born from broken code.""**
 
 </td>
 <td align="right">
