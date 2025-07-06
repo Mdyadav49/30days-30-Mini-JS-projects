@@ -2,6 +2,7 @@ const inputData = document.querySelector('.searchParent input')
 const searchIcon = document.querySelector('.searchIcon')
 const errorMassage = document.querySelector('.error-massage')
 const showData = document.querySelector('.show-data')
+const cityInput = document.querySelector('.city-input')
 
 const apikey = "4e86a0495150152ea920791a0cdd7e0d"
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q="
@@ -26,4 +27,7 @@ async function checkWeather(city) {
 }
 searchIcon.addEventListener('click',()=>{
     checkWeather(inputData.value)
+})
+cityInput.addEventListener('click',()=>{
+    errorMassage.style.display = 'none'
 })
