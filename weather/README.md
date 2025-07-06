@@ -1,17 +1,27 @@
-# Simple To-Do List 📝
+# 🌦️ Simple Weather App
 
-This is a basic to-do list web app built using HTML, CSS, and JavaScript.  
-You can add tasks, mark them as complete, delete them, and your list is saved in your browser using localStorage.
+This is a **Weather Forecast App** built with HTML, CSS, and JavaScript.  
+It uses the **OpenWeatherMap API** to fetch real-time weather data for any city entered by the user.
+
+---
 
 ## Features
-- Add a task
-- Click to mark as done
-- Click × to delete
-- Tasks stay saved after page reload
 
-## Skills Used
-- DOM Manipulation
-- Event Handling
-- localStorage
-- JavaScript Fundamentals
+- 🔍 Search weather by city name
+- 🌡️ Shows current temperature (°C)
+- 💧 Humidity level
+- 🌬️ Wind speed
+- 🌤️ Weather icon based on condition
+- ⚠️ Displays error message if city is not found
+
+---
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript (Vanilla)
+- OpenWeatherMap API
+
+---
 
