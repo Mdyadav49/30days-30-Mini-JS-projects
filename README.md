@@ -34,4 +34,6 @@ Together, they serve as an excellent playground to **learn, practice, and master
 | 🌦️ **Weather App** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/weather) 
 | 🧠 **Quiz App(way-1)** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/Quiz%20%20App(way-1)) 
 | 🧠 **Quiz App(way-2)** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/Quiz%20App%20(way%202)) 
+| 🔐 Random Password Generator | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/Quiz%20App%20(way%202)) 
+
 
