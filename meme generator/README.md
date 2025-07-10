@@ -1,6 +1,6 @@
 # 😂 Meme Generator
 
-A simple and fun **Meme Generator App** that fetches random wholesome memes using the public [Meme API](https://meme-api.com/).
+A simple and fun **Meme Generator App** that fetches random wholesome memes using the public. [Meme API](https://meme-api.com/gimme/wholesomememes).
 
 ---
 
