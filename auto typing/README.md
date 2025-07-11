@@ -4,7 +4,7 @@
 Words appear one character at a time, pause, then get deleted in reverse before transitioning to the next word.
 It's perfect for portfolios, developer intros, or landing pages.
 
-
+##
 
 ## 🌟 Features
 
@@ -14,10 +14,10 @@ It's perfect for portfolios, developer intros, or landing pages.
 -  Customizable word list
 -  Pure JavaScript — no external libraries
 
+---
 
 
-
- 🛠️ Technologies Used
+ ##🛠️ Technologies Used
 
 - HTML5
 - CSS3 (optional for styling)
