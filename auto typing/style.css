@@ -1,0 +1,25 @@
+*{
+    margon:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    margin-left:110px;
+    background-color:black;
+    color:white;
+}
+h1{
+    font-size:45px;
+}
+h1 span{
+    color:brown;
+    display:inline-flex;
+}
+
+span::after {
+    content:'';
+    display:inline-block;
+    width:3px;
+    margin-left: 6px;
+    background-color: brown;
+}
