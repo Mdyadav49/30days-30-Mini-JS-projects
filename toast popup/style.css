@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0:
+    box-sizing:border-box;
+}
+body{
+    margin:10px;
+    text-align:center;
+}
+.div{
+    display:flex;
+    flex-direction:column;
+    margin-inline:auto;
+    gap:16px;
+    max-width:400px;
+    margin-top:16px;
+}
+
+select,input , button{
+    padding:8px;
+}
+.toast-setting{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+#toast-range{
+    flex-grow:1;
+}
+.toast-cont{
+    position:absolute;
+    display:flex;
+    flex-direction:column-reverse;
+    gap:8px;
+    top:1rem;
+    left:1rem;
+}
+.toast{
+    padding:8px;
+    color:white;
+    border-radius:5px;
+}
+.toast.toleft{
+    animation: toLeft 0.1s ease-in;
+}
+
+.toast.toright{
+    animation: toright 0.1s ease-in forwards;
+}
+
+@keyframes toLeft{
+    0%{
+        transform:translateX(-140px)
+    }
+    100%{
+        transform:translateX(0px)
+    }
+}
+@keyframes toright{
+    0%{
+        transform:translateX(0px)
+    }
+    100%{
+        transform:translateX(-140px)
+    }
+}
+.toast-cont.right{
+    left:auto;
+    right:1rem;
+}
+
+.toast-cont.bottom{
+    top:auto;
+    bottom:1rem;
+}
+.toast::after{
+    cursor:pointer;
+    content:' ✕'
+}
+
+.toast.success::before{
+    content:'✓ ';
+}
+
+.toast.error::before{
+    content:'✕ ';
+}
+
+.toast.warning::before{
+    content:'⚠️ ';
+}
+
+.toast.info::before{
+    content:'ⓘ ';
+}
+.toast.success{
+    background-color: #009600;
+}
+.toast.error{
+    background-color: #ff0000;
+}
+.toast.warning{
+    background-color: #ffa500;
+}
+.toast.info{
+    background-color: #4e4e4e;
+}
+
