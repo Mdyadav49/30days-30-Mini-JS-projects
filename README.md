@@ -36,5 +36,6 @@ Together, they serve as an excellent playground to **learn, practice, and master
 | 🧠 **Quiz App(way-2)** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/Quiz%20App%20(way%202)) 
 | 🔐 **Random Password Generator** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/Password%20Generator) 
 | ✍️ **Auto Typing** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/auto%20typing) 
+| 🔔 **Toast Popup** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/toast%20popup) 
 
 
