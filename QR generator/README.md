@@ -2,7 +2,7 @@
 
 A simple web app that generates a QR code for any text or URL you enter.
 
-![QR Generator Demo](https://api.qrserver.com/v1/create-qr-code/?data=HelloWorld&size=100x100)
+![QR Generator Demo](https://api.qrserver.com/v1/create-qr-code/?data=https://www.google.com/&size=100x100)
 
 ---
 
