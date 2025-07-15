@@ -38,5 +38,6 @@ Together, they serve as an excellent playground to **learn, practice, and master
 | ✍️ **Auto Typing** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/auto%20typing) 
 | 🔔 **Toast Popup** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/toast%20popup) 
 | 📷 **QR Code Generator** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/QR%20generator) 
+| 🎯 **Number Guessing Game** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/guess) 
 
 
