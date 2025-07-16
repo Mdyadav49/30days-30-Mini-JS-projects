@@ -1,0 +1,57 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background-color:#edeaff;
+    color:#fff;
+}
+.class{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:60px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    max-width:500px;
+    width:100%;
+    padding:100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.75)) , url('images/background.png'); 
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat; 
+}
+
+.display{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    line-height:44px;  
+    font-size:44px;
+    gap:10px;   
+    padding:none;
+}
+.display span{
+    display:inline-block;
+    vertical-align:middle;
+    line-height:1;
+}
+.buttons{
+    display:flex;
+    align-items:center;
+    column-gap:40px;
+}
+.btn{
+    width:52px;
+    cursor:pointer;
+}
+.btn:hover{
+    transform:scale(1.2)
+}
+.startbtn{
+    width:80px;
+}
