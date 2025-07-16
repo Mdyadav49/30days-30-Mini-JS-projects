@@ -39,5 +39,6 @@ Together, they serve as an excellent playground to **learn, practice, and master
 | 🔔 **Toast Popup** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/toast%20popup) 
 | 📷 **QR Code Generator** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/QR%20generator) 
 | 🎯 **Number Guessing Game** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/guess) 
+| ⏱️ **Stopwatch Web App** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/Stopwatch) 
 
 
