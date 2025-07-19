@@ -1,21 +1,53 @@
 const display = document.querySelector('#display')
-const buttonsContainer = document.querySelector('.buttons-container')
-const evaluate = document.querySelector('#equals')
+const operatorList = ["+","*","/","-","."]
 
-let expression;
-let onlyOperator = false;
-buttonsContainer.addEventListener('click',(e)=>{
-    if(e.target.tagName === 'INPUT' && (e.target.value !== '=') && e.target.value !== 'AC' && e.target.value !== 'DE'){
-        display.value += e.target.value
-       expression = display.value 
-    }else if(e.target.value === '='){   
-        let result = eval(expression)
-        display.value = result; 
-        
+let strictNumber = false;
+let strictOperator = false;
+
+function appendNumbersToDisplay(Input){
+    if(!strictNumber){
+    display.value += Input
+    strictOperator = false;
+}
+}
+
+function appendOperatorToDisplay(operator){
+    if(["+","*","/"].includes(operator) && display.value.length === 0 ) return
+    if (operator === "." && display.value.at(-1) === ".") return;   
+
+    if(operator === '-' && display.value.at(-1) === "*") {
+        strictOperator = false
     }
-})
-evaluate.addEventListener('click',()=>{
-    if(display.value){
-        // console.log(num)
+
+    if(!strictOperator){
+        display.value += operator
+        strictOperator = true
+        strictNumber = false
     }
-})
+}
+
+
+function clearDisplay(){
+    display.value = ''
+    strictNumber = false;
+    strictOperator = false;
+}
+
+
+function DeleteLastInput(){
+    if(display.value.length == 0) return 
+    display.value = (display.value).toString().slice(0,-1)
+    strictOperator = operatorList.includes(display.value.at(-1))
+}
+
+
+function calculate(){
+    if(display.value.length === 0) return 
+    if(operatorList.includes(display.value.at(-1))) return
+    try{
+        display.value = eval(display.value)
+        strictNumber = true;
+    }catch(err){
+        display.value="error"
+    }
+}
