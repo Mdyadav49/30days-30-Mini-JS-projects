@@ -12,29 +12,29 @@
     <div class="container">
         <form>
             <div>
-                <input type="text" name="display" value="" id="display" readonly>
+                <input type="text" name="display" value="" id="display" readonly placeholder="output">
             </div>
 
-            <div class="buttons-container">
-            <input type="button" value="AC" class="operator">
-            <input type="button" value="DE"    class="operator">
-            <input type="button" value="." class="operator">
-            <input type="button" value="/" class="operator">
-            <input type="button" value="7">
-            <input type="button" value="8">
-            <input type="button" value="9">
-            <input type="button" value="*" class="operator">
-            <input type="button" value="4">
-            <input type="button" value="5">
-            <input type="button" value="6">
-            <input type="button" value="-" class="operator">
-            <input type="button" value="1">
-            <input type="button" value="2">
-            <input type="button" value="3">
-            <input type="button" value="+" class="operator">
-            <input type="button" value="00">
-            <input type="button" value="0">
-            <input type="button" value="=" class="operator" id="equals">
+            <div class="buttons-container" >
+            <input type="button" value="AC" class="operator" onclick="clearDisplay()">
+            <input type="button" value="DE" class="operator" onclick="DeleteLastInput()">
+            <input type="button" value="." class="operator" onclick="appendOperatorToDisplay('.')">
+            <input type="button" value="/" class="operator" onclick="appendOperatorToDisplay('/')">
+            <input type="button" value="7" onclick="appendNumbersToDisplay('7')">
+            <input type="button" value="8" onclick="appendNumbersToDisplay('8')">
+            <input type="button" value="9" onclick="appendNumbersToDisplay('9')">
+            <input type="button" value="*" class="operator" onclick="appendOperatorToDisplay('*')">
+            <input type="button" value="4" onclick="appendNumbersToDisplay('4')">
+            <input type="button" value="5" onclick="appendNumbersToDisplay('5')">
+            <input type="button" value="6" onclick="appendNumbersToDisplay('6')">
+            <input type="button" value="-" class="operator" onclick="appendOperatorToDisplay('-')">
+            <input type="button" value="1" onclick="appendNumbersToDisplay('1')">
+            <input type="button" value="2" onclick="appendNumbersToDisplay('2')">
+            <input type="button" value="3" onclick="appendNumbersToDisplay('3')">
+            <input type="button" value="+" class="operator" onclick="appendOperatorToDisplay('+')">
+            <input type="button" value="00" onclick="appendNumbersToDisplay('00')">
+            <input type="button" value="0" onclick="appendNumbersToDisplay('0')">
+            <input type="button" value="=" class="operator" id="equals" onclick="calculate()">
         </div>
         </form>
     </div>  
