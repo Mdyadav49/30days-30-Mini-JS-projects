@@ -42,5 +42,6 @@ Together, they serve as an excellent playground to **learn, practice, and master
 | ⏱️ **Stopwatch Web App** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/Stopwatch) 
 | 🧮 **Calculator Web App** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/calculator) 
 | 📝 **Form Validation** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/Form%20Validation) 
+| 🖼️ **Horizontal Scroll Image Gallery** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/Image-Gallery) 
 
 
