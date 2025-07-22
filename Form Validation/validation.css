@@ -19,14 +19,18 @@ form{
     transform:translate(-50%,-50%);
     background-color:#fff;
 }
+
 form div{
     display:flex;
     align-items:center;
     justify-content:space-between;
+    position:relative;
 }
+
 label{
     width:30%;
 }
+
 input{
     border:none;
     border-bottom:1px solid black;
@@ -35,6 +39,7 @@ input{
     color:#555;
     padding-block:16px;    
 }
+
 textarea{
     border:none;
     border-bottom:1px solid black;
@@ -54,4 +59,24 @@ button{
     background-color: rgb(21, 40, 68);
     color:white;   
     border:none; 
+}
+
+span{
+    color:red;
+    position:absolute;
+    right:0px;
+    white-space:nowrap;
+    font-size:14px;
+    display:block;
+}
+
+.message-error{ 
+    bottom:2px; 
+}
+
+.submit-error{
+    display:none;
+    font-size:14px;
+    color:red;
+    margin-top:20px;
 }
