@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background-color:#201f21;
+    height:100vh;
+    display:flex;   
+    justify-content:center;
+    align-items:center;
+}
+.password-cont{ 
+    display:flex;
+    jutify-content:center;
+    align-items:center;
+    border-radius:4px;
+    gap:10px;
+    padding-inline:10px;
+    border:1px solid #fff;
+}
+.password-cont input{
+    font-size:16px;
+    margin-right:16px;
+    border:none;
+    outline:none;
+    color:#fff; 
+    background-color:transparent;   
+    padding-block:16px;
+}
+.password-cont input::placeholder{
+    color:#555;
+}
+.password-cont img{
+    width:30px;
+    height:20px;
+    cursor:pointer;
+}
+.status{
+    position:absolute;
+    top:56%;
+    left:39%;
+    width:200px;
+}
+.status-message{
+    font-size:18px;
+    font-weight:100;
+}
