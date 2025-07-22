@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validation</title>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="validation.css">
     <script src="validation.js" defer></script>
 </head>
+
 <body>
     <form>
-        <div class="inputs">
+        <div>
             <label for="full-name">Full Name</label>
             <input type="text" id="full-name" placeholder="Enter your name">
+            <span class="name-error"></span>
         </div>
 
-        <div class="inputs">
+        <div>
             <label for="phone-no">Phone No.</label>
-            <input type="text" id="phone-no" placeholder="123 456 7890">
+            <input type="tel" id="phone-no" placeholder="123 456 7890" maxlength="10">
+            <span class="phone-error"></span>
         </div>
 
-        <div class="inputs">
+        <div>
             <label for="Email">Email Id</label>
             <input type="text" id="Email" placeholder="Enter Email">
+            <span class="email-error"></span>
         </div>
 
-        <div class="inputs">
+        <div>
             <label for="massage">Your massage</label>
-            <textarea name="message" id="massage" placeholder="Enter your message..."></textarea>
+            <textarea name="message" id="massage" placeholder="Enter your message..." minlength="30"></textarea>
+            <span class="message-error"></span>
         </div>
-        <button>Submit</button>
+        <button class="submit">Submit</button>
+            <p class="submit-error">sdfaf</p>
     </form>
 </body>
+
 </html>
