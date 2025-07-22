@@ -28,8 +28,8 @@ Together, they serve as an excellent playground to **learn, practice, and master
 
 ## 🌟 Projects
 
-| 🚀 Project | 📂 Folder | 
-|---|---|
+|NO.| 🚀 Project | 📂 Folder | 
+|---|---|---|
 | 1. | 🎴 **to-do list** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/To-Do%20List) 
 | 2. | 🌦️ **Weather App** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/weather) 
 | 3. | 🧠 **Quiz App(way-1)** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/Quiz%20%20App(way-1)) 
