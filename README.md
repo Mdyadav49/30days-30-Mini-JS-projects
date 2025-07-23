@@ -44,5 +44,6 @@ Together, they serve as an excellent playground to **learn, practice, and master
 | 12. | 📝 **Form Validation** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/Form%20Validation) 
 | 13. | 🖼️ **Horizontal Scroll Image Gallery** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/Image-Gallery) 
 | 14. | 🔐 **Password Strength Checker** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/Password%20Strength) 
+| 15. | 🌗 **Light and Dark Mode Toggle App** | [Code](https://github.com/Mdyadav49/40-Projects/tree/main/lightdark%20mode) 
 
 
